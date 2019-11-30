@@ -1,14 +1,14 @@
-import { app } from './js/app';
+import { trivia } from './js/trivia';
 import { year } from './js/year';
 import { math } from './js/math';
 import { date } from './js/date';
 import './styles/main.scss';
 
 
-app();
-date();
-math();
-year();
+
+
+
+
 
 
 
@@ -16,9 +16,28 @@ year();
 var header = document.getElementById("title");
 header.style.color = 'gray';
 
-var button = document.getElementById('button').addEventListener('click', buttonClick);
+var button = document.getElementById('a').addEventListener('click', buttonClick);
 
 function buttonClick(){
-    //console.log("button clicked")
-    document.getElementById('button').style.color = "yellow"
+    console.log("button clicked")
+    trivia();
+   
+}
+var button2 = document.getElementById('b').addEventListener('click', buttonClick2);
+function buttonClick2(){
+    console.log("button clicked")
+    date();
+   
+}
+var button3 = document.getElementById('c').addEventListener('click', buttonClick3);
+function buttonClick3(){
+    console.log("button clicked")
+        year();
+   
+}
+var button4 = document.getElementById('d').addEventListener('click', buttonClick4);
+function buttonClick4(){
+    console.log("button clicked")
+    math();
+   
 }
