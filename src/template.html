@@ -7,16 +7,33 @@
       content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
     />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Hello World!</title>
+    <title>Numbers</title>
   </head>
   <body class="container">
     <!-- insert yout html template here -->
       <div class="jumbotron mt-4">
-        <h1 class="display-4">We love numbers ;)</h1>
-        <button class="btn btn-dark" id="button">CLick here</button>
+        <h1 class="display-4" id='title'>We love numbers ;)</h1>
+        <form class="form-inline mb-3">
+            <input type="text" class="form-control mr-2">
+            <input type="submit" class="btn btn-info" value="Try me">
+        </form>
         <p id="facts" class="lead"></p>
       </div>
-      <script> src="index.js"</script>
+      <div class="jumbotron mt-4">
+        <form class="form-inline mb-3">
+          <input type="text" class="form-control mr-2">
+          <input type="submit" class="btn btn-info" value="Try me too!">
+      </form>
+      <p id="facts" class="lead"></p>
+      </div>
+      <div class="jumbotron mt-4">
+        <form class="form-inline mb-3">
+          <input type="text" class="form-control mr-2">
+          <input type="submit" class="btn btn-info" value="You should also try me ;)">
+      </form>
+      <p id="facts" class="lead"></p>
+      </div>
+      <script src="index.js"></script>
     <!-- - -->
   </body>
 </html>
