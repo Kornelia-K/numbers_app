@@ -1,11 +1,20 @@
 import { app } from './js/app';
-import { appp } from './js/date';
+import { year } from './js/year';
+import { math } from './js/math';
+import { date } from './js/date';
 import './styles/main.scss';
 
-app();
 
-var header = document.getElementsByClassName("display-4");
-header.style.backgroundColor = 'yellow';
+app();
+date();
+math();
+year();
+
+
+
+
+var header = document.getElementById("title");
+header.style.color = 'gray';
 
 var button = document.getElementById('button').addEventListener('click', buttonClick);
 

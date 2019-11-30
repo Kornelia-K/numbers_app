@@ -1,16 +1,12 @@
-// build your app here
 import axios from 'axios';
 
-const api_url = "http://numbersapi.com/random/trivia?json";
+const api_url = "http://numbersapi.com/random/year?json";
 
-export const app = () => {
+export const year = () => {
   axios.get(api_url)
     .then(response => {
         // console.log(response.data);
-        triviafacts.innerText = response.data.text;
+        yearfacts.innerText = response.data.text;
       })
     .catch(error => console.log(error));
 }
-
-
-
