@@ -12,28 +12,40 @@
   <body class="container">
     <!-- insert yout html template here -->
     <div class="jumbotron mt-4">
+        <blockquote class="blockquote text-center">
         <h1 class="display-4" id='title'>We love numbers ;)</h1>
-        <form class="form-inline mb-3" id="addForm"></form>
-        <input type="text" class="form-control mr-2" id="item"> <br>
-        <input type="submit" class="btn btn-info" value="Try me">
-        </div>
+      </blockquote>
+    </div>
+         <div class="jumbotron mt-4">
+      <div class="col-auto my-1">
+        <label class="mr-sm-2" for="inlineFormCustomSelect">What do you want to know?</label>
+        <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+          <option selected>Choose...</option>
+          <option value="1">Trivia</option>
+          <option value="2">Date</option>
+          <option value="3">Year</option>
+          <option value="4">Math</option>
+        </select>
+        <br><br>
+        <div class="col-auto my-1">
+            <button type="submit" class="btn btn-info">Submit</button>
+          </div>
+      </div>
+    </div>
       <div class="jumbotron mt-4">
-        <button  type="button" class="btn btn-info" id="a">Try me</button> 
-        <p id="demo"></p>
-                <br>
+        <button  type="button" class="btn btn-info" id="a">Try me</button><br><br>
         <p id="triviafacts" class="lead"></p>
       </div>
       <div class="jumbotron mt-4">
-        <button type="button" class="btn btn-info" id="b">Try me too</button> <br>
-      
-      <p id="datefacts" class="lead"></p>
+        <button type="button" class="btn btn-info" id="b">Try me too</button> <br><br>
+        <p id="datefacts" class="lead"></p>
       </div>
       <div class="jumbotron mt-4">
-        <button type="button" class="btn btn-info" id="c">You should also try me ;)</button> <br>
-      <p id="yearfacts" class="lead"></p>
+        <button type="button" class="btn btn-info" id="c">You should also try me ;)</button> <br><br>
+        <p id="yearfacts" class="lead"></p>
       </div>
       <div class="jumbotron mt-4">
-        <button type="button" class="btn btn-info" id="d">Why not try me?</button> <br>
+        <button type="button" class="btn btn-info" id="d">Why not try me?</button> <br><br>
         <p id="mathfacts" class="lead"></p>
       </div>
     
