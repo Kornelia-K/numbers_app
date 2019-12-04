@@ -30,20 +30,20 @@ var button2 = document.getElementById('b').addEventListener('click', buttonClick
 function buttonClick2(){
     console.log("button clicked")
     date();
-    header.innerText="Numbers are the best!!!"
+    header.innerText="We love numbers <3"
    
 };
 var button3 = document.getElementById('c').addEventListener('click', buttonClick3);
 function buttonClick3(){
     console.log("button clicked")
     year();
-    header.innerText="Numbers are the best!!!"
+    header.innerText="Have you ever heard about it?"
    
 };
 var button4 = document.getElementById('d').addEventListener('click', buttonClick4);
 function buttonClick4(){
     console.log("button clicked")
     math();
-    header.innerText="Numbers are the best!!!"
+    header.innerText="Do you admire Pascal?"
    
 };

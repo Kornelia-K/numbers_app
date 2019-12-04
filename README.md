@@ -21,4 +21,3 @@ https://github.com/BohdanOne/webpack-babel-bootstrap-scss
 
 
 
-Background: Photo by Kevin Mueller on Unsplash
