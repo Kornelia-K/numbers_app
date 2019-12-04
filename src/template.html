@@ -7,14 +7,49 @@
       content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
     />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Hello World!</title>
+    <title>Numbers</title>
   </head>
   <body class="container">
     <!-- insert yout html template here -->
-      <div class="jumbotron mt-4">
-        <h1 class="display-4">We love numbers ;)</h1>
-        <p id="facts" class="lead"></p>
+    <div class="jumbotron mt-4">
+        <blockquote class="blockquote text-center">
+        <h1 class="display-4" id='title'>We love numbers ;)</h1>
+      </blockquote>
+    </div>
+         <div class="jumbotron mt-4">
+      <div class="col-auto my-1">
+        <label class="mr-sm-2" for="inlineFormCustomSelect">What do you want to know?</label>
+        <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+          <option selected>Choose...</option>
+          <option value="1">Trivia</option>
+          <option value="2">Date</option>
+          <option value="3">Year</option>
+          <option value="4">Math</option>
+        </select>
+        <br><br>
+        <div class="col-auto my-1">
+            <button type="submit" class="btn btn-info">Submit</button>
+          </div>
       </div>
+    </div>
+      <div class="jumbotron mt-4">
+        <button  type="button" class="btn btn-info" id="a">Try me</button><br><br>
+        <p id="triviafacts" class="lead"></p>
+      </div>
+      <div class="jumbotron mt-4">
+        <button type="button" class="btn btn-info" id="b">Try me too</button> <br><br>
+        <p id="datefacts" class="lead"></p>
+      </div>
+      <div class="jumbotron mt-4">
+        <button type="button" class="btn btn-info" id="c">You should also try me ;)</button> <br><br>
+        <p id="yearfacts" class="lead"></p>
+      </div>
+      <div class="jumbotron mt-4">
+        <button type="button" class="btn btn-info" id="d">Why not try me?</button> <br><br>
+        <p id="mathfacts" class="lead"></p>
+      </div>
+    
+      <script src="index.js"></script>
     <!-- - -->
   </body>
 </html>
