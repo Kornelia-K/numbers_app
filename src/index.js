@@ -14,6 +14,7 @@ import './styles/main.scss';
 
 
 
+
 var header = document.getElementById("title");
 header.style.color = 'gray';
 header.style.fontFamily = "Cooper Black";
