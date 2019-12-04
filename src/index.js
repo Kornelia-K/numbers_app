@@ -16,6 +16,11 @@ import './styles/main.scss';
 
 var header = document.getElementById("title");
 header.style.color = 'gray';
+header.style.fontFamily = "Cooper Black";
+
+var end = document.getElementsByClassName("end");
+end[1].style.color = "gray";
+end[0].style.color = "gray";
 
 
 var button = document.getElementById('a').addEventListener('click', buttonClick);
