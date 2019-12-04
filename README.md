@@ -1,14 +1,15 @@
-# Basic Webpack environment
+# Simple app with using API
 
-## Includes:
-- separate configuration for development and for production
-- bootstrap
-- scss
-- Babel
-- cache busting
-- html, css, js minification for production
+## API
+
+http://numbersapi.com/#visitors
+
+## Webpack environment
+
+https://github.com/BohdanOne/webpack-babel-bootstrap-scss 
 
 ## Usage:
+
 1. Clone or download this repository.
 2. Install dependencies
 `npm install`
@@ -18,4 +19,4 @@
 `npm run build`
 
 
-Background: Photo by Kevin Mueller on Unsplash
+
