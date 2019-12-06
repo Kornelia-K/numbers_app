@@ -3,6 +3,8 @@ import { year } from './js/year';
 import { math } from './js/math';
 import { date } from './js/date';
 import './styles/main.scss';
+import "core-js/stable";
+import "regenerator-runtime/runtime";
 
 
 
