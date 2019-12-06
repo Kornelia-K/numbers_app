@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const api_url = "https://numbersapi.com/random/trivia?json";
+const api_url = "http://numbersapi.com/random/trivia?json";
 
 export const trivia = () => {
   axios.get(api_url)

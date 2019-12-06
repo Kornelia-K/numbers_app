@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const api_url = "https://numbersapi.com/random/year?json";
+const api_url = "http://numbersapi.com/random/year?json";
 
 export const year = () => {
   axios.get(api_url)
